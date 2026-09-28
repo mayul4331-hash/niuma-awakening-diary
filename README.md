@@ -1,6 +1,12 @@
-# 牛马觉醒日记
+<p align="center">
+  <img src="assets/episode09/豆包%20(9).png" alt="牛马觉醒日记" width="520">
+</p>
 
+<h1 align="center">牛马觉醒日记</h1>
+
+<p align="center">
 「牛马觉醒日记」系列抖音短视频的端到端制作工具。输入一期火柴人插画 + 参考成片 + 文案，自动输出 4:3 竖版短视频（2880×2160 / 30fps）。
+</p>
 
 ## 这是什么
 
@@ -95,6 +101,11 @@ bash  ../scripts/finalize.sh        config.json   # 混音 + 编码 + 封面
 - 回抽关键帧（开场红字卡、每条正文起/止、片尾）目视确认字幕与插画
 - `ffmpeg -i out.mp4 -af ebur128=peak=true -f null -` 确认 I≈−18.4、TP≤−1.5
 - 确认无水印残留、无字幕串台、叠化平滑
+
+## 联系作者
+
+- 微信：`mylbh_0101`
+- 欢迎交流合作、定制期数、反馈问题
 
 ## 许可
 
