@@ -1,0 +1,40 @@
+{
+  "_comment": "第九期完整示例 config。illustrations_dir 指向 skill 内置素材；voice_wav / bgm_wav 需按工作流第2-3步生成后填入实际路径。<skill_dir> 替换为 skill 实际安装目录。",
+  "work_dir": "/abs/path/to/work",
+  "episode_title": "职场小白注意！上班禁区千万别碰，踩一个都容易吃亏",
+  "hook_text": "永远记住一句话",
+  "note_text": "个人观点，仅供参考",
+  "copy": [
+    "别迟到出头",
+    "别跟同事掏心窝聊是非",
+    "不和领导正面硬刚",
+    "也别傻傻全盘接下所有活",
+    "不谈私事",
+    "不背后嚼舌根",
+    "工位别摸鱼看私书",
+    "最重要！听懂领导的潜台词",
+    "职场讲究边界感，守住底线"
+  ],
+  "illustrations_dir": "<skill_dir>/assets/episode09",
+  "illustration_pattern": "豆包 ({idx}).png",
+  "n_illustrations": 10,
+  "font_path": "/abs/path/to/fonts/NotoSansSC-VF.ttf",
+  "shot_t": [0.0, 9.05, 11.2, 13.85, 16.4, 19.5, 21.25, 23.55, 26.3, 30.8, 32.45, 35.5],
+  "sub_win": [
+    [0.34, 2.4, "永远记住一句话"],
+    [9.3, 11.12, "别迟到出头"],
+    [11.22, 13.84, "别跟同事掏心窝聊是非"],
+    [13.86, 16.28, "不和领导正面硬刚"],
+    [16.42, 19.24, "也别傻傻全盘接下所有活"],
+    [19.54, 21.16, "不谈私事"],
+    [21.26, 23.24, "不背后嚼舌根"],
+    [23.58, 26.08, "工位别摸鱼看私书"],
+    [26.34, 29.4, "最重要！听懂领导的潜台词"],
+    [30.86, 33.55, "职场讲究边界感，守住底线"]
+  ],
+  "duration": 35.5,
+  "voice_wav": "/abs/path/to/audio/voice_raw.wav",
+  "bgm_wav": "/abs/path/to/audio/bgm_ref.wav",
+  "output_mp4": "/abs/path/to/牛马觉醒日记09-上班禁区.mp4",
+  "output_cover": "/abs/path/to/牛马觉醒日记09-上班禁区-封面.jpg"
+}
